@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A051CC93F8A80B8F6425425 /* Pods_LyonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957903F5DBD38D6ED3F24E88 /* Pods_LyonTests.framework */; };
+		B93EC71087DCC3D613A570E8 /* Pods_Lyon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF498406EAD2F644D3D6A092 /* Pods_Lyon.framework */; };
+		CA00890868D5E5BC5FE8DBC7 /* Pods_LyonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3446E93AB56858D2836A70 /* Pods_LyonUITests.framework */; };
 		CF4A6B871FEC4064009DF6D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A6B861FEC4064009DF6D3 /* AppDelegate.swift */; };
 		CF4A6B891FEC4064009DF6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A6B881FEC4064009DF6D3 /* ViewController.swift */; };
 		CF4A6B8C1FEC4064009DF6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4A6B8A1FEC4064009DF6D3 /* Main.storyboard */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E9F0E0B4B6B9980A2CCF0F1 /* Pods-LyonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LyonUITests/Pods-LyonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F72C595BCBBD40730803BDE /* Pods-LyonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LyonTests/Pods-LyonTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D3446E93AB56858D2836A70 /* Pods_LyonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6E2CECCF6F1ADC425ABD5B /* Pods-Lyon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lyon/Pods-Lyon.debug.xcconfig"; sourceTree = "<group>"; };
+		780D97CED44063E4C0FDCCEC /* Pods-Lyon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lyon/Pods-Lyon.release.xcconfig"; sourceTree = "<group>"; };
+		8F125F7A1D7EB55FC95DEA0D /* Pods-LyonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyonTests/Pods-LyonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		924174186388DC64B6085CF5 /* Pods-LyonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyonUITests/Pods-LyonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		957903F5DBD38D6ED3F24E88 /* Pods_LyonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF498406EAD2F644D3D6A092 /* Pods_Lyon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4A6B831FEC4064009DF6D3 /* Lyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4A6B861FEC4064009DF6D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF4A6B881FEC4064009DF6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93EC71087DCC3D613A570E8 /* Pods_Lyon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A051CC93F8A80B8F6425425 /* Pods_LyonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA00890868D5E5BC5FE8DBC7 /* Pods_LyonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07E9E8704B3CD3B578B6261F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF498406EAD2F644D3D6A092 /* Pods_Lyon.framework */,
+				957903F5DBD38D6ED3F24E88 /* Pods_LyonTests.framework */,
+				3D3446E93AB56858D2836A70 /* Pods_LyonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF4A6B7A1FEC4063009DF6D3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				CF4A6B9A1FEC4064009DF6D3 /* LyonTests */,
 				CF4A6BA51FEC4064009DF6D3 /* LyonUITests */,
 				CF4A6B841FEC4064009DF6D3 /* Products */,
+				DC1F61690999D1F6B1C83A4A /* Pods */,
+				07E9E8704B3CD3B578B6261F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = LyonUITests;
 			sourceTree = "<group>";
 		};
+		DC1F61690999D1F6B1C83A4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D6E2CECCF6F1ADC425ABD5B /* Pods-Lyon.debug.xcconfig */,
+				780D97CED44063E4C0FDCCEC /* Pods-Lyon.release.xcconfig */,
+				8F125F7A1D7EB55FC95DEA0D /* Pods-LyonTests.debug.xcconfig */,
+				1F72C595BCBBD40730803BDE /* Pods-LyonTests.release.xcconfig */,
+				924174186388DC64B6085CF5 /* Pods-LyonUITests.debug.xcconfig */,
+				1E9F0E0B4B6B9980A2CCF0F1 /* Pods-LyonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF4A6BAB1FEC4064009DF6D3 /* Build configuration list for PBXNativeTarget "Lyon" */;
 			buildPhases = (
+				D666787DCD5269EDA62E1C23 /* [CP] Check Pods Manifest.lock */,
 				CF4A6B7F1FEC4064009DF6D3 /* Sources */,
 				CF4A6B801FEC4064009DF6D3 /* Frameworks */,
 				CF4A6B811FEC4064009DF6D3 /* Resources */,
+				47B338073932284280F27457 /* [CP] Embed Pods Frameworks */,
+				FC4BA32B96C9A7F22B3D278A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF4A6BAE1FEC4064009DF6D3 /* Build configuration list for PBXNativeTarget "LyonTests" */;
 			buildPhases = (
+				3620D132B1A829FB3C744AB8 /* [CP] Check Pods Manifest.lock */,
 				CF4A6B931FEC4064009DF6D3 /* Sources */,
 				CF4A6B941FEC4064009DF6D3 /* Frameworks */,
 				CF4A6B951FEC4064009DF6D3 /* Resources */,
+				CCA82E121B73B6D9B9FC9447 /* [CP] Embed Pods Frameworks */,
+				ECB3C399E11438C0AF4F8D5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF4A6BB11FEC4064009DF6D3 /* Build configuration list for PBXNativeTarget "LyonUITests" */;
 			buildPhases = (
+				E3F20C6E8B67C13EC82F6283 /* [CP] Check Pods Manifest.lock */,
 				CF4A6B9E1FEC4064009DF6D3 /* Sources */,
 				CF4A6B9F1FEC4064009DF6D3 /* Frameworks */,
 				CF4A6BA01FEC4064009DF6D3 /* Resources */,
+				3756BB2EBE4257774FE596B1 /* [CP] Embed Pods Frameworks */,
+				6F113FBC2D04B33944D282D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,162 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3620D132B1A829FB3C744AB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LyonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3756BB2EBE4257774FE596B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyonUITests/Pods-LyonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47B338073932284280F27457 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lyon/Pods-Lyon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lyon/Pods-Lyon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F113FBC2D04B33944D282D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyonUITests/Pods-LyonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA82E121B73B6D9B9FC9447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyonTests/Pods-LyonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D666787DCD5269EDA62E1C23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lyon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F20C6E8B67C13EC82F6283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LyonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB3C399E11438C0AF4F8D5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyonTests/Pods-LyonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4BA32B96C9A7F22B3D278A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lyon/Pods-Lyon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF4A6B7F1FEC4064009DF6D3 /* Sources */ = {
@@ -424,6 +629,7 @@
 		};
 		CF4A6BAC1FEC4064009DF6D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6E2CECCF6F1ADC425ABD5B /* Pods-Lyon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +645,7 @@
 		};
 		CF4A6BAD1FEC4064009DF6D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 780D97CED44063E4C0FDCCEC /* Pods-Lyon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +661,7 @@
 		};
 		CF4A6BAF1FEC4064009DF6D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F125F7A1D7EB55FC95DEA0D /* Pods-LyonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +679,7 @@
 		};
 		CF4A6BB01FEC4064009DF6D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F72C595BCBBD40730803BDE /* Pods-LyonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +697,7 @@
 		};
 		CF4A6BB21FEC4064009DF6D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924174186388DC64B6085CF5 /* Pods-LyonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +714,7 @@
 		};
 		CF4A6BB31FEC4064009DF6D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9F0E0B4B6B9980A2CCF0F1 /* Pods-LyonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
