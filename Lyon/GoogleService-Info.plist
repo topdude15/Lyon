@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>98058113824-0h3ts9fuj3onqhos1q1v5oao97aqdv4p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.98058113824-0h3ts9fuj3onqhos1q1v5oao97aqdv4p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD6-OfZci3F3joVyPuJyLdnOH5wH_kkxTw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>98058113824</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.keyloftstudios.Lyon</string>
+	<key>PROJECT_ID</key>
+	<string>lyon-6dec4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lyon-6dec4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:98058113824:ios:f3adf9090880a65e</string>
+	<key>DATABASE_URL</key>
+	<string>https://lyon-6dec4.firebaseio.com</string>
+</dict>
+</plist>

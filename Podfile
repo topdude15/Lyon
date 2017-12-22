@@ -10,6 +10,7 @@ target 'Lyon' do
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
+  pod 'Pulley'
 
   target 'LyonTests' do
     inherit! :search_paths

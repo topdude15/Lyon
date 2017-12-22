@@ -10,13 +10,13 @@
 		5A051CC93F8A80B8F6425425 /* Pods_LyonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957903F5DBD38D6ED3F24E88 /* Pods_LyonTests.framework */; };
 		B93EC71087DCC3D613A570E8 /* Pods_Lyon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF498406EAD2F644D3D6A092 /* Pods_Lyon.framework */; };
 		CA00890868D5E5BC5FE8DBC7 /* Pods_LyonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3446E93AB56858D2836A70 /* Pods_LyonUITests.framework */; };
+		CF458DF41FEC8E6D003598B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF458DF31FEC8E6D003598B5 /* Main.storyboard */; };
 		CF4A6B871FEC4064009DF6D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A6B861FEC4064009DF6D3 /* AppDelegate.swift */; };
-		CF4A6B891FEC4064009DF6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A6B881FEC4064009DF6D3 /* ViewController.swift */; };
-		CF4A6B8C1FEC4064009DF6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4A6B8A1FEC4064009DF6D3 /* Main.storyboard */; };
 		CF4A6B8E1FEC4064009DF6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4A6B8D1FEC4064009DF6D3 /* Assets.xcassets */; };
 		CF4A6B911FEC4064009DF6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4A6B8F1FEC4064009DF6D3 /* LaunchScreen.storyboard */; };
 		CF4A6B9C1FEC4064009DF6D3 /* LyonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A6B9B1FEC4064009DF6D3 /* LyonTests.swift */; };
 		CF4A6BA71FEC4064009DF6D3 /* LyonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A6BA61FEC4064009DF6D3 /* LyonUITests.swift */; };
+		CF4A6BB51FEC4591009DF6D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF4A6BB41FEC4591009DF6D3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +45,10 @@
 		8F125F7A1D7EB55FC95DEA0D /* Pods-LyonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyonTests/Pods-LyonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		924174186388DC64B6085CF5 /* Pods-LyonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyonUITests/Pods-LyonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		957903F5DBD38D6ED3F24E88 /* Pods_LyonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF458DF31FEC8E6D003598B5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CF498406EAD2F644D3D6A092 /* Pods_Lyon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4A6B831FEC4064009DF6D3 /* Lyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4A6B861FEC4064009DF6D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF4A6B881FEC4064009DF6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF4A6B8B1FEC4064009DF6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF4A6B8D1FEC4064009DF6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4A6B901FEC4064009DF6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4A6B921FEC4064009DF6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		CF4A6BA21FEC4064009DF6D3 /* LyonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4A6BA61FEC4064009DF6D3 /* LyonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyonUITests.swift; sourceTree = "<group>"; };
 		CF4A6BA81FEC4064009DF6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4A6BB41FEC4591009DF6D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,12 +124,15 @@
 		CF4A6B851FEC4064009DF6D3 /* Lyon */ = {
 			isa = PBXGroup;
 			children = (
+				CF4A6BBA1FEC45CF009DF6D3 /* Model */,
+				CF4A6BB91FEC45CB009DF6D3 /* View */,
+				CF4A6BB81FEC45BF009DF6D3 /* Controller */,
 				CF4A6B861FEC4064009DF6D3 /* AppDelegate.swift */,
-				CF4A6B881FEC4064009DF6D3 /* ViewController.swift */,
-				CF4A6B8A1FEC4064009DF6D3 /* Main.storyboard */,
-				CF4A6B8D1FEC4064009DF6D3 /* Assets.xcassets */,
 				CF4A6B8F1FEC4064009DF6D3 /* LaunchScreen.storyboard */,
+				CF458DF31FEC8E6D003598B5 /* Main.storyboard */,
+				CF4A6B8D1FEC4064009DF6D3 /* Assets.xcassets */,
 				CF4A6B921FEC4064009DF6D3 /* Info.plist */,
+				CF4A6BB41FEC4591009DF6D3 /* GoogleService-Info.plist */,
 			);
 			path = Lyon;
 			sourceTree = "<group>";
@@ -150,6 +153,27 @@
 				CF4A6BA81FEC4064009DF6D3 /* Info.plist */,
 			);
 			path = LyonUITests;
+			sourceTree = "<group>";
+		};
+		CF4A6BB81FEC45BF009DF6D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF4A6BB91FEC45CB009DF6D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF4A6BBA1FEC45CF009DF6D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DC1F61690999D1F6B1C83A4A /* Pods */ = {
@@ -282,8 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF4A6B911FEC4064009DF6D3 /* LaunchScreen.storyboard in Resources */,
+				CF4A6BB51FEC4591009DF6D3 /* GoogleService-Info.plist in Resources */,
 				CF4A6B8E1FEC4064009DF6D3 /* Assets.xcassets in Resources */,
-				CF4A6B8C1FEC4064009DF6D3 /* Main.storyboard in Resources */,
+				CF458DF41FEC8E6D003598B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +371,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Lyon/Pods-Lyon-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -353,6 +379,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -464,7 +491,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4A6B891FEC4064009DF6D3 /* ViewController.swift in Sources */,
 				CF4A6B871FEC4064009DF6D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,14 +527,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF4A6B8A1FEC4064009DF6D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF4A6B8B1FEC4064009DF6D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF4A6B8F1FEC4064009DF6D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -635,6 +653,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W62T85YASV;
 				INFOPLIST_FILE = Lyon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.Lyon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -651,6 +670,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W62T85YASV;
 				INFOPLIST_FILE = Lyon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.Lyon;
 				PRODUCT_NAME = "$(TARGET_NAME)";

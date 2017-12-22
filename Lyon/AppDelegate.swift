@@ -7,14 +7,29 @@
 //
 
 import UIKit
+import Firebase
+import Pulley
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        if Auth.auth().currentUser != nil {
+            print("Logged in")
+        } else {
+            /*
+            let mainContentVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainVC")
+            let drawerContentVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DrawerVC")
+            let pulleyController = PulleyViewController(contentViewController: mainContentVC, drawerViewController: drawerContentVC)
+            pulleyController.initialDrawerPosition = .partiallyRevealed
+            pulleyController.allowsUserDrawerPositionChange = true
+            self.window?.rootViewController = pulleyController
+            self.window?.makeKeyAndVisible()
+             */
+        }
         // Override point for customization after application launch.
         return true
     }
